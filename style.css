@@ -76,3 +76,37 @@ main{
     padding-bottom: 30px;
     padding-left: 15px;
 }
+
+/* banner design */
+footer{
+margin-top: 150px;
+margin-bottom: 60px;
+}
+.footer-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.logo-and-name {
+display: flex;
+align-items: center;
+}
+.website-logo {
+margin-right: 20px;
+}
+
+.social-media-icon {
+margin-top: 20px;
+margin-bottom: 20px;
+height: 32px;
+}
+
+.fa-instagram{
+    font-size: 20px;
+}
+
+.footer-container p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    }
