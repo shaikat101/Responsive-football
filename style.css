@@ -18,6 +18,26 @@ main{
     width: 1050px;
 }
 
+/* Hover Style start */
+.field{
+    width: 1px solid;
+}
+
+.field:hover .ball {
+    transform-origin: top right;
+    transform: translate(970px, -200px);
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color:khaki;
+    border-radius: 50px;
+    transition: transform 1s ease-out;
+    position: relative;
+}
+
+/* Hover style end */
+
 /* top-section style */
 .top-sections{
     display: flex;
@@ -75,6 +95,40 @@ main{
     height: 154px;
     padding-bottom: 30px;
     padding-left: 15px;
+}
+
+/* sponsor -deesign */
+.sponsors-fixtures{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.sponsors{
+    width: 200px;
+    height: 450px;
+    padding-right: 300px;
+}
+.text-design{
+    color: crimson;
+
+}
+
+.fixtures{
+    width: 250px;
+    padding-left: 100px;
+}
+
+.anchor-design{
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    font-size: 10px;
+    background-color: #E02C6D;
+    padding:10px 24px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    
 }
 
 /* banner design */
