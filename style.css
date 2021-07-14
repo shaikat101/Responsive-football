@@ -175,3 +175,31 @@ height: 32px;
     font-size: 20px;
     padding-bottom: 50px;
     }
+
+
+    /* Media Query */
+    @media only screen and (max-width:688px){
+        .container{
+            width: 100%;
+        }
+        .top-sections{
+            grid-template-columns: repeat(1,1fr);
+            justify-content: center;
+        align-items: center;
+        }
+
+
+        .content{
+            width: 278px;
+            height: 138px;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .content-banner{
+            width: 329px;
+            height: 259.17px;
+        }
+
+
+    }
